@@ -1,4 +1,4 @@
-package ödev;
+package Ã¶dev;
 
 import java.time.LocalDate;
 
@@ -18,7 +18,7 @@ public class Main {
 		
 		
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MerniceServiceAdapter());
-		customerManager.Save(new Customer (LocalDate.of(2001, 02, 01) ,  "Emin",  "Palaz",  "12349760866"));
+		customerManager.Save(new Customer (LocalDate.of(2000, 12, 01) ,  "Memati",  "Aslan",  "12345678901"));
 		
 		
 		
