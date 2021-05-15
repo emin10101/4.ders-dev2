@@ -18,7 +18,7 @@ public class Main {
 		
 		
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MerniceServiceAdapter());
-		customerManager.Save(new Customer (LocalDate.of(2000, 12, 01) ,  "Memati",  "Aslan",  "12345678901"));
+		customerManager.Save(new Customer (LocalDate.of(1982, 12, 01) ,  "Memati",  "Baş",  "12345678901"));
 		
 		
 		
